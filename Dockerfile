@@ -1,2 +1,3 @@
-FROM binwiederhier/ntfy
-COPY server.yml /etc/ntfy/
+FROM binwiederhier/ntfy:latest
+EXPOSE 80
+CMD ["ntfy", "serve"]
