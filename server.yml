@@ -1,5 +1,5 @@
 # Base URL of the ntfy server (optional, for attachment links)
-base-url: "https://ntfy-guiders.up.railway.app"
+base-url: "https://ntfy-guiders-production.up.railway.app/"
 
 # Listen address for the HTTP web socket server
 listen-http: ":80"
@@ -21,4 +21,5 @@ upstream-base-url: "https://ntfy.sh"
 
 # Auth: Only allow users with these credentials (optional)
 # auth-file: "/etc/ntfy/user.db"
+
 # auth-default-access: "read-write"
