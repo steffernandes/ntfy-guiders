@@ -2,10 +2,10 @@
 base-url: "https://ntfy-guiders-production.up.railway.app/"
 
 # Listen address for the HTTP web socket server
-listen-http: ":80"
+listen-http: ":8080"
 
 # Listen address for the HTTPS web socket server
-listen-https: ":443"
+listen-https: ""
 
 # HTTP(S) reverse proxy behind which ntfy is running (optional)
 behind-proxy: true
@@ -16,10 +16,9 @@ cache-file: "/var/cache/ntfy/cache.db"
 # Attachment cache directory, used for storing attached files
 attachment-cache-dir: "/var/cache/ntfy/attachments"
 
-# Upstream base URLs, used when messages are published to other servers (optional)
-upstream-base-url: "https://ntfy.sh"
 
 # Auth: Only allow users with these credentials (optional)
 # auth-file: "/etc/ntfy/user.db"
 
 # auth-default-access: "read-write"
+
